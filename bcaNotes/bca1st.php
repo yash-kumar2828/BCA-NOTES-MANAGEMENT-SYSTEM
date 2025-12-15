@@ -87,7 +87,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/All Unit C.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/All Unit C.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/Math All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/Math All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/DE UNIT ALL.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/DE UNIT ALL.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>

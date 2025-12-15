@@ -133,7 +133,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>

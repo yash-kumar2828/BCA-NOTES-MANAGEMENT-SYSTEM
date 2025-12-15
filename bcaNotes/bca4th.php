@@ -79,15 +79,15 @@
                 </div>
                 <div class="subunit">
                      <ul>
-                        <li><a href="" class="unit">Unit I</a></li>
-                        <li><a href="" class="unit">Unit II</a></li>
-                        <li><a href=""class="unit">Unit III</a></li>
-                        <li><a href=""class="unit">Unit IV</a></li>
-                        <li><a href=""class="unit">Unit V</a></li>
+                        <li><a href="../pdf/PHP Unit 1.pdf" class="unit">Unit I</a></li>
+                        <li><a href="../pdf/PHP Unit 2.pdf" class="unit">Unit II</a></li>
+                        <li><a href="../pdf/PHP Unit 3.pdf"class="unit">Unit III</a></li>
+                        <li><a href="../pdf/PHP Unit 4.pdf"class="unit">Unit IV</a></li>
+                        <li><a href="../pdf/PHP Unit 5.pdf"class="unit">Unit V</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/PHP All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -100,15 +100,15 @@
                 </div>
                 <div class="subunit">
                      <ul>
-                        <li><a href="" class="unit">Unit I</a></li>
-                        <li><a href="" class="unit">Unit II</a></li>
-                        <li><a href=""class="unit">Unit III</a></li>
-                        <li><a href=""class="unit">Unit IV</a></li>
-                        <li><a href=""class="unit">Unit V</a></li>
+                        <li><a href="../pdf/Python Unit 1.pdf" class="unit">Unit I</a></li>
+                        <li><a href="../pdf/Python Unit 2.pdf" class="unit">Unit II</a></li>
+                        <li><a href="../pdf/Python Unit 3.pdf"class="unit">Unit III</a></li>
+                        <li><a href="../pdf/Python Unit 4.pdf"class="unit">Unit IV</a></li>
+                        <li><a href="../pdf/Python Unit 5.pdf"class="unit">Unit V</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/Python All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -121,16 +121,15 @@
                 </div>
                 <div class="subunit">
                      <ul>
-                        <li><a href="../pdf/Unit 1 SE.pdf" class="unit">Unit I</a></li>
-                        <li><a href="" class="unit">Unit II</a></li>
-                        <li><a href=""class="unit">Unit III</a></li>
-                        <li><a href=""class="unit">Unit IV</a></li>
-                        <li><a href=""class="unit">Unit V</a></li>
-                        <li><a href=""class="unit">Unit VI</a></li>
+                        <li><a href="../pdf/SE Unit 1.pdf" class="unit">Unit I</a></li>
+                        <li><a href="../pdf/SE Unit 2.pdf" class="unit">Unit II</a></li>
+                        <li><a href="../pdf/SE Unit 3.pdf"class="unit">Unit III</a></li>
+                        <li><a href="../pdf/SE Unit 4.pdf"class="unit">Unit IV</a></li>
+                        <li><a href="../pdf/SE Unit 5.pdf"class="unit">Unit V</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/SE All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -143,16 +142,16 @@
                 </div>
                 <div class="subunit">
                      <ul>
-                        <li><a href="" class="unit">Unit I</a></li>
-                        <li><a href="" class="unit">Unit II</a></li>
-                        <li><a href=""class="unit">Unit III</a></li>
-                        <li><a href=""class="unit">Unit IV</a></li>
-                        <li><a href=""class="unit">Unit V</a></li>
-                        <li><a href=""class="unit">Unit VI</a></li>
+                        <li><a href="../pdf/DBMS Unit 1.pdf" class="unit">Unit I</a></li>
+                        <li><a href="../pdf/DBMS Unit 2.pdf" class="unit">Unit II</a></li>
+                        <li><a href="../pdf/DBMS Unit 3.pdf"class="unit">Unit III</a></li>
+                        <li><a href="../pdf/DBMS Unit 4.pdf"class="unit">Unit IV</a></li>
+                        <li><a href="../pdf/DBMS Unit 5.pdf"class="unit">Unit V</a></li>
+                        <li><a href="../pdf/DBMS Unit 6.pdf"class="unit">Unit VI</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/DBMS All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -173,7 +172,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>

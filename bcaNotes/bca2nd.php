@@ -85,11 +85,10 @@
                         <li><a href="../pdf/Math1 Unit 3.pdf"class="unit">Unit III</a></li>
                         <li><a href="../pdf/Math1 Unit 4.pdf"class="unit">Unit IV</a></li>
                         <li><a href="../pdf/Math1 Unit 5.pdf"class="unit">Unit V</a></li>
-                        <li><a href=""class="unit">Unit VI</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/Math1 All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/Math1 All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -107,11 +106,10 @@
                         <li><a href="../pdf/C Programming Unit 3.pdf"class="unit">Unit III</a></li>
                         <li><a href="../pdf/C Programming Unit 4.pdf"class="unit">Unit IV</a></li>
                         <li><a href="../pdf/C Programming Unit 5.pdf"class="unit">Unit V</a></li>
-                        <li><a href=""class="unit">Unit VI</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/C Programming All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/C Programming All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -129,11 +127,10 @@
                         <li><a href="../pdf/CAAL Unit 3.pdf"class="unit">Unit III</a></li>
                         <li><a href="../pdf/CAAL Unit 4.pdf"class="unit">Unit IV</a></li>
                         <li><a href="../pdf/CAAL Unit 5.pdf"class="unit">Unit V</a></li>
-                        <li><a href=""class="unit">Unit VI</a></li>
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/CAAL All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/CAAL All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
@@ -176,7 +173,7 @@
                     </ul>
                 </div>
                 <div class="clickPdf">
-                    <p><a href="../pdf/FAT All Unit.pdf" class="clickpdf1">6 in 1(PDF)</a></p>
+                    <p><a href="../pdf/FAT All Unit.pdf" class="clickpdf1">5 in 1(PDF)</a></p>
                 </div>
             </div>
         </div>
