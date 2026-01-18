@@ -81,12 +81,12 @@
             <h2>About Us</h2>
             <p>Welcome to our website (SY Dream Study), where you'll find a Study of Material in the form of <b style="color: rgb(103, 207, 172); text-decoration: underline;"> PDF's, Programs</b > and <b style="color: rgb(103, 207, 172); text-decoration: underline;"> Hand Written Notes.</b></p>
             <p>All BCA Notes are semester wise:
-                <a href="bca1st.html">BCA Sem 1st</a>,
-                <a href="bca2nd.html">BCA Sem 2nd</a>,
-                <a href="bca3rd.html">BCA Sem 3rd</a>,
-                <a href="bca4th.html">BCA Sem 4th</a>,
-                <a href="bca5th.html">BCA Sem 5th</a>,
-                <a href="bca6th.html">BCA Sem 6th</a>
+                <a href="../bcaNotes/bca1st.php">BCA Sem 1st</a>,
+                <a href="../bcaNotes/bca2nd.php">BCA Sem 2nd</a>,
+                <a href="../bcaNotes/bca3rd.php">BCA Sem 3rd</a>,
+                <a href="../bcaNotes/bca4th.php">BCA Sem 4th</a>,
+                <a href="../bcaNotes/bca5th.php">BCA Sem 5th</a>,
+                <a href="../bcaNotes/bca6th.php">BCA Sem 6th</a>
             </p>
             <p>SY Dream Study offers unprecedented study material. Our mission is to help students take advantage of those study material by providing them with six key tools:</p>
             <ul>
