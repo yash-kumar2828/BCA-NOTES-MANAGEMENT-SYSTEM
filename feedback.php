@@ -1,25 +1,26 @@
 
 <?php
-// ---------- When form is submitted ----------
+
+$success=false;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include 'backend/conn.php'; 
     session_start(); 
 
-    // Get form values
     $name = $_POST['name'];
     $email = $_POST['email'];
     $feedback = $_POST['feedback'];
 
-    // Insert data
+ 
     $sql = "INSERT INTO feedback (name, email, feedback) 
             VALUES ('$name', '$email', '$feedback')";
 
     if (mysqli_query($conn, $sql)) {
-        $message = "";
+        $success=true;
     } else {
         $message = "Error: " . mysqli_error($conn);
     }
-
+    
     mysqli_close($conn);
 }
 ?>
@@ -42,7 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label>Feedback:</label><br>
     <textarea name="feedback" rows="4" required></textarea><br><br>
     <button type="submit">Submit Feedback</button>
-</form>
+</form><br>
+<a href="index.php" class="homePage" style="text-decoration: none; background-color: #007bff;  padding: 8px; border-radius: 5px; color: white;" >Go-to Home Page</a>
 </div>
+<?php if ($success) { ?>
+<script>
+    alert("✅ Feedback successfully submitted!");
+</script>
+<?php } ?>
 </body>
 </html>

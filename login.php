@@ -32,7 +32,8 @@ if (isset($_POST['login'])) {
         <input type="text" name="username" placeholder="Username" required><br>
         <input type="password" name="password" placeholder="Password" required><br>
         <button type="submit" name="login">Login</button>
-    </form>
+    </form><br>
+    <a href="index.php" class="homePage" style="text-decoration: none; background-color: #007bff;  padding: 8px; border-radius: 5px; color: white;" >Go-to Home Page</a>
 </div>
 </body>
 </html>
