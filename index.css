@@ -96,7 +96,6 @@ button {
 .heading{
     font-size: 2.1vmax;
     color: white;
-    font-family:'Gill Sans';
     text-align: center;
 }
 .paragraph{
@@ -111,7 +110,6 @@ button {
     text-align: center;
     color: white;
     font-size: 1.2rem;
-    font-family: 'Gill Sans';
 }
 form{
     background-color: white;
@@ -175,56 +173,28 @@ form{
     color:  black;
 }
 /* all first section css are here  */
-.area{
-    height: 120vh;
+
+
+.contentNotes{
+    width: 70%;
+    margin-left: 10%;
+    padding: 5rem 0;
+}
+.contHead h1{
     display: flex;
     justify-content: center;
-    align-items: center; 
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 2vmax;
 }
-.container-all{
-    height: 100vh;
-    display: flex;
-    align-items:center ;
-}
-.cont-img{
-    height: 70%;
+.contPara{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-right: 120px;
-}
-.cont-img img{
-    height: 33vmax;
-    width: 33vmax;
-    box-shadow: 5px 2px 2px 3px;  
-    border-radius: 40px;
-}
-.cont-head{
-    width: 40%;
-}
-.cont-head h1{
-    font-size: 3vmax;
-}
-.cont-head p{
     color: #777777;
-    margin-top: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.12rem;
+    margin-top: 10px;
 }
-.about {
-    width: 130px;
-    height: 2.5rem;
-    background-color:  #66b4fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3.8rem;
-    border-radius: 10px; 
-}
-.about a{
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
+
 /* all main part css are here  */
 .main{
     width: 100%;
@@ -441,25 +411,6 @@ footer{
     .link{
         width: 85%;
     }
-    .container-all{
-         display: inline; 
-         width: 100%;
-    }
-    .cont-head{
-        width: 90%;
-    }
-    .cont-head h1{
-        text-align: center;
-    }
-    .cont-head p{
-        margin-top: 2rem;
-        font-size: 1.2rem;
-        margin-left: 42px;  
-    }
-    .about{
-        margin-left: 42px;
-        margin-top: 30px;
-    }
     .content1{
         display: grid;
         grid-template-columns: auto auto;
@@ -514,7 +465,6 @@ form{
     display: flex;
 }
 .courses{
-    height: 200px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-left: 50px;
@@ -522,29 +472,15 @@ form{
 .all-course{
     width: 75%;
 }
-.container-all{
-    display: inline;
-    width: 100%;
-}
-.cont-img img{
-    margin-top: -160px;  
-    margin-left: 40%;
-}
-.cont-head{
-    width: 90%;
-    margin-top: -100px;
-}
-.cont-head h1{
+
+.contentNotes{
+    width: 80%;
     margin-left: 10%;
 }
-.cont-head p{
-    margin-top: 2rem;
-    font-size: 1rem;
-    margin-left: 40px;
-}
-.about{
-    margin-left: 40px;
-    margin-top: 30px;
+.contPara{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 .bca{
     height: 700px;
