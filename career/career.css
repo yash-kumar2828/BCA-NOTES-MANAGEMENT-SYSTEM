@@ -140,63 +140,25 @@ button {
 
 
 /* all section css are here  */
-.area{
-    height: 125vh;
+.contentNotes{
+    width: 70%;
+    margin-left: 10%;
+    padding: 5rem 0;
+}
+.contHead h1{
     display: flex;
     justify-content: center;
-    align-items: center; 
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 2vmax;
 }
-.container-all{
-    height: 80vh;
-    display: flex;
-    align-items:center ;
-}
-.cont-img{
-    height: 43vh;
+.contPara{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-right: 120px;
-}
-.cont-img img{
-    height: 32vmax;
-    width: 32vmax;
-    box-shadow: 5px 2px 2px 3px;  
-    border-radius: 20px;
-}
-.cont-head{
-    height: 60vh;
-    width: 60vh;
-}
-.cont-head h1{
-    font-size: 3vmax;
-    margin-left: 5px;
-}
-.cont-head p{
     color: #777777;
-    margin-top: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.12rem;
+    margin-top: 10px;
 }
-.cont-head p a{
-    text-decoration: none;
-}
-.about {
-    width: 130px;
-    height: 2.5rem;
-    background-color:  #66b4fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3.8rem;
-    border-radius: 10px; 
-}
-.about a{
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
-
-
 
 
 /* main content css are here  */
@@ -293,31 +255,7 @@ footer{
           margin-top: 5vh;
           width: 20vh;
         }
-    .container{
-        display: none;
-    }
-    .link{
-        width: 100%;
-    }
-    .container-all{
-        display: inline; 
-        width: 100%;
-   }
-   .cont-head{
-       width: 90%;
-   }
-   .cont-head h1{
-       text-align: center;
-   }
-   .cont-head p{
-       margin-top: 2rem;
-       font-size: 1.2rem;
-       margin-left: 42px;  
-   }
-   .about{
-       margin-left: 42px;
-       margin-top: 30px;
-   }
+   
 }
 /* create a media query with maximum 799px width  */
 @media(max-width:799px){
@@ -346,26 +284,14 @@ footer{
     display: flex;
    } 
 
-.container-all{
-    display: inline;
-    width: 100%;
+.contentNotes{
+    width: 80%;
+    margin-left: 10%;
 }
-.cont-img img{
-    margin-top: -160px;  
-    margin-left: 40%;
-}
-.cont-head{
-    width: 90%;
-    margin-top: -100px;
-}
-.cont-head p{
-    margin-top: 2rem;
-    font-size: 1rem;
-    margin-left: 40px;
-}
-.about{
-    margin-left: 40px;
-    margin-top: 30px;
+.contPara{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 .footer-cont{
     display: inline;
