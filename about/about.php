@@ -60,18 +60,14 @@
         </section>
     </header>  
      <!-- create a section  -->
-    <section class="area">
-        <div class="container-all">
-            <div class="cont-img">
-                <img src="../images/ai.jpg" alt="ai">
-            </div>
-            <div class="cont-head">
+    <section class="contentNotesSection">
+        <div class="contentNotes">
+            <div class="contHead">
                 <h1>SY Dream Study</h1>
-                <p style="color: #3c3131ee;">Why our website is the best?</p>
-                <p>We have created this website to help others for free. We made this website as simple as possible, that anyone can run smoothly on their phone and computer. We have simple PDF and Notes of the BCA course subject with programs of 'C' Language, C++ ,Python,PHP,and JAVA, which will help in quick reading and memorization. If you having trouble understanding a topic, then you have come at right place. We will help eliminate all your problems.</p>
-            <div class="about">
-                <a href="career.php">Career</a>
             </div>
+            <h3 style="color: #3c3131ee;">Why our website is the best?</h3>
+            <div class="contPara">
+                <p>We have created SYDreamStudy (this website) to help others for free. We made this website as simple as possible, that anyone can run smoothly on their phone and computer. We have simple PDF's and Notes of the Course BCA, which will help you in quick reading and memorization. If you have any trouble in understanding any topic, then you came at right place. We will help you to eliminate all your problems.</p>
             </div>
         </div>
     </section>
