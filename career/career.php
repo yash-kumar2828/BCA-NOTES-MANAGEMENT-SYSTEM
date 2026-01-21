@@ -61,17 +61,16 @@
     </header>  
 
      <!-- create a section  -->
-    <section class="area">
-        <div class="container-all">
-            <div class="cont-img">
-                <img src="../images/career.jpg" alt="ai">
-            </div>
-            <div class="cont-head">
+    
+
+
+    <section class="contentNotesSection">
+        <div class="contentNotes">
+            <div class="contHead">
                 <h1>Academics Career Advice And Career Prospects of BCA:-</h1>
-                <p>I.T Sector is one of the major employment providers in India and is expected to grow more in the coming years. BCA, that stands for Bachelor in Computer Application, It trains students in developing, programming, networking, computer and mobile softwares, app development, etc. If you’re hard working and talented enough, your 3-year BCA degree can stand at level with a 4-year B.Tech degree. Let’s learn more <a href="about.html">about</a> the scope of BCA.</p>
-            <div class="about">
-                <a href="about.html">About Us</a>
             </div>
+            <div class="contPara">
+                <p>I.T Sector is one of the major employment providers in India and is expected to grow more in the coming years. BCA, that stands for Bachelor in Computer Application, It trains students in developing, programming, networking, computer and mobile softwares, app development, etc. If you’re hard working and talented enough, your 3-year BCA degree can stand at level with a 4-year B.Tech degree.</p>
             </div>
         </div>
     </section>
