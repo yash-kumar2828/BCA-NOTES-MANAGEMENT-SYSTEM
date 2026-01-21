@@ -4,10 +4,10 @@ session_start();
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-$success = "";
+$success = false;
 $error = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email'])) {
     $email = trim($_POST['email']);
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -18,18 +18,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             mysqli_stmt_bind_param($stmt, "s", $email);
 
             if (mysqli_stmt_execute($stmt)) {
-                $success = "";
+                $success = true;
             } else {
                 if (mysqli_errno($conn) == 1062) {
-                    $error = "";
+                    $success = true;
                 } else {
                     $error = "Database error.";
                 }
             }
-
             mysqli_stmt_close($stmt);
-        } else {
-            $error = "Failed to prepare query.";
         }
     }
 }
@@ -112,17 +109,13 @@ mysqli_close($conn);
     </section>  
     </header>
     <!-- create a first section  -->
-    <section class="area">
-        <div class="container-all">
-            <div class="cont-img">
-                <img src="images/ai.jpg" alt="ai">
-            </div>
-            <div class="cont-head">
+    <section class="contentNotesSection">
+        <div class="contentNotes">
+            <div class="contHead">
                 <h1>All Content in simple language and Ad-Free :SYDreamStudy</h1>
-                <p>We have created SYDreamStudy (this website) to help others for free. We made this website as simple as possible, that anyone can run smoothly on their phone and computer. We have simple PDF's and Notes of the Course BCA, which will help you in quick reading and memorization. If you have any trouble in understanding any topic, then you came at right place. We will help you to eliminate all your problems.</p>
-            <div class="about">
-                <a href="">About Us</a>
             </div>
+            <div class="contPara">
+                <p>We have created SYDreamStudy (this website) to help others for free. We made this website as simple as possible, that anyone can run smoothly on their phone and computer. We have simple PDF's and Notes of the Course BCA, which will help you in quick reading and memorization. If you have any trouble in understanding any topic, then you came at right place. We will help you to eliminate all your problems.</p>
             </div>
         </div>
     </section>
@@ -232,12 +225,7 @@ mysqli_close($conn);
         </div>
         <div class="email">
             <h2 style="margin-left:33%; margin-top:5rem; color:rgb(133, 133, 133); font-size:1.1rem; margin-bottom: 1rem">You can trust us. We are here to help you.</h2>
-            <?php if ($success): ?>
-            <p style="color: green; color: gray"><?php echo $success; ?></p>
-            <?php endif; ?>
-            <?php if ($error): ?>
-            <p style="color: red;"><?php echo $error; ?></p>
-            <?php endif; ?>
+          
             <form action="" method="POST" style="width:40%;margin-left:25%">
                 <input type="email" name="email" required placeholder="Your Email Address" class="input-text">
                 <button type="submit" style="transform: rotate(0deg); color: black;  display: inline; width: 7rem;"  class="input-btn">Save</button>
@@ -246,5 +234,12 @@ mysqli_close($conn);
         <div class="border1"></div>
     </footer>
     <script src="script.js"></script>
+    <?php if ($success) { ?>
+        <script>
+            window.onload = function () {
+                alert("✅ Email successfully saved!");
+            };
+        </script>
+    <?php } ?>
 </body>
 </html>
