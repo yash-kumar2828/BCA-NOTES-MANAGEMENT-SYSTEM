@@ -54,7 +54,7 @@
                 <ul>
                     <li><a href="../index.php">Home</a></li>
                     &ensp;<i class="fa-solid fa-arrow-right" style="color: white;"></i>&ensp;
-                    <li><a href="career.php"> Career</a></li>
+                    <li><a href="about.php"> About</a></li>
                 </ul>
             </div>
         </section>
