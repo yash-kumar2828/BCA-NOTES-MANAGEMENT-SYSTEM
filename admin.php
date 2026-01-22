@@ -4,11 +4,6 @@ if (!isset($_SESSION['admin'])) {
     header("Location: index.php");
     exit();
 }
-// include('backend/conn.php');
-
-// $emails = mysqli_fetch_all(mysqli_query($conn, "SELECT * FROM emails ORDER BY created_at DESC"), MYSQLI_ASSOC);
-// $feedbacks = mysqli_fetch_all(mysqli_query($conn, "SELECT * FROM feedback ORDER BY created_at DESC"), MYSQLI_ASSOC);
-// $pdfs = mysqli_fetch_all(mysqli_query($conn, "SELECT * FROM pdf ORDER BY id DESC"), MYSQLI_ASSOC); 
 ?>
 
 <!DOCTYPE html>
@@ -21,11 +16,10 @@ if (!isset($_SESSION['admin'])) {
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Poppins', sans-serif;
-            background: #f0f2f5;
-            color: #333;
+            font-family: 'Poppins', sans-serif;            
         }
         .topbar {
+            width:100%;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 18px 30px;
@@ -34,7 +28,10 @@ if (!isset($_SESSION['admin'])) {
             align-items: center;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        .topbar h1 { font-size: 24px; }
+        .topbar h1 { font-size: 24px; text-align:center; }
+        .top-buttons{
+            display:flex;
+        }
         .top-buttons a {
             color: white;
             text-decoration: none;
@@ -48,6 +45,12 @@ if (!isset($_SESSION['admin'])) {
         .top-buttons a:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
         .top-buttons a.logout { background: #e74c3c; }
         .top-buttons a.logout:hover { background: #c0392b; }
+
+        @media(max-width:750px){
+            .topbar {   
+                display: inline-block;
+            }
+        }
      
     </style>
 </head>
